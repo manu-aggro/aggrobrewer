@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #90233A;
+}
+
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #CE9147;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  border-bottom: 3px solid #1CAFE3;
+}
+.navbar a {
+  font-size: smaller;
+  text-decoration: none;
+  margin: 0.5em;
+}
+.navbar .logo-home {
+  width: 7em;
+}
+
+/*# sourceMappingURL=style.css.map */

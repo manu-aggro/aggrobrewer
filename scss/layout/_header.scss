@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    border-bottom: 3px solid #1CAFE3;
+    a{
+        font-size: smaller;
+        text-decoration: none;
+        margin: 0.5em;
+    }
+    .logo-home{
+        width: 7em;
+    }
+}
