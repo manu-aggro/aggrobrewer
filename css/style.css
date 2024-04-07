@@ -26,4 +26,83 @@
   width: 7em;
 }
 
+main .home {
+  display: flex;
+  flex-direction: column;
+}
+main .home .home-item-1 {
+  display: inline;
+}
+main .home .home-item-1 .item-image {
+  background-color: #1CAFE3;
+  height: 15em;
+  width: 80%;
+  margin-top: 3em;
+}
+main .home .home-item-1 .item-image:hover {
+  background-image: url(/assets/home-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 50%;
+}
+main .home .home-item-1 .item-text {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  transform: translateY(-10em);
+  height: 6em;
+  width: 60%;
+  margin-right: 1px;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .home .home-item-1 .item-text p {
+  background-color: white;
+  text-align: center;
+  font-size: x-small;
+  padding: 1em;
+}
+main .home .home-item-2 {
+  display: inline;
+}
+main .home .home-item-2 .item-image {
+  background-color: #1CAFE3;
+  height: 15em;
+  width: 80%;
+  margin-top: 3em;
+  position: absolute;
+  right: 0;
+}
+main .home .home-item-2 .item-image:hover {
+  background-image: url(/assets/home-1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 50%;
+}
+main .home .home-item-2 .item-text {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  transform: translateY(10em);
+  height: 6em;
+  width: 60%;
+  margin-right: 1px;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .home .home-item-2 .item-text p {
+  background-color: white;
+  text-align: center;
+  font-size: x-small;
+  padding: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
