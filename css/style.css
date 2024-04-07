@@ -40,7 +40,7 @@ main .home .home-item-1 .item-image {
   margin-top: 3em;
 }
 main .home .home-item-1 .item-image:hover {
-  background-image: url(/assets/home-2.jpg);
+  background-image: url(../assets/home-2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -78,7 +78,7 @@ main .home .home-item-2 .item-image {
   right: 0;
 }
 main .home .home-item-2 .item-image:hover {
-  background-image: url(/assets/home-1.jpg);
+  background-image: url(../assets/home-1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

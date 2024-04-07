@@ -13,7 +13,7 @@ main {
                 margin-top: 3em;
 
                 &:hover {
-                    background-image: url(/assets/home-2.jpg);
+                    background-image: url(../assets/home-2.jpg);
                     background-position: center center;
                     background-repeat: no-repeat;
                     background-attachment: fixed;
@@ -61,7 +61,7 @@ main {
                 right: 0;
 
                 &:hover {
-                    background-image: url(/assets/home-1.jpg);
+                    background-image: url(../assets/home-1.jpg);
                     background-position: center center;
                     background-repeat: no-repeat;
                     background-attachment: fixed;
