@@ -1,0 +1,30 @@
+.proyectos{
+    margin-top: 5em;
+    .proyectos-item{
+                width: 90%;
+                height: 40em;
+                margin: 1em;
+                background-image: url(/assets/GARDENEA\ pantallazo.png);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                opacity: 50%;
+                
+
+                &:hover{
+                    opacity: 80%;
+                }
+                a{
+                    button{
+                        text-decoration: none;
+                        padding: 1em;
+                        border-radius: 0.5em;
+                        -webkit-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+                        -moz-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+                        box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+                        
+                    }
+                }
+    }
+}
