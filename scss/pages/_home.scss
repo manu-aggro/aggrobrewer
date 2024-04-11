@@ -7,25 +7,24 @@ main {
             display: inline;
 
             .item-image {
-                background-color: $color-azul;
+                background-image: url(../assets/home-2.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                opacity: 50%;
                 height: 15em;
                 width: 80%;
                 margin-top: 3em;
 
                 &:hover {
-                    background-image: url(../assets/home-2.jpg);
-                    background-position: center center;
-                    background-repeat: no-repeat;
-                    background-attachment: fixed;
-                    background-size: cover;
-                    opacity: 50%;
-
+                    opacity: 100%;
                 }
 
             }
 
             .item-text {
-                background-color: $color-blanco;
+                background-color: $color-azul;
                 position: absolute;
                 right: 0;
                 transform: translateY(-10em);
@@ -36,9 +35,13 @@ main {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                -webkit-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+                -moz-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+                box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
 
                 p {
-                    background-color: $color-blanco;
+                    color:$color-blanco;
+                    background-color: $color-azul;
                     text-align: center;
                     font-size: x-small;
                     padding: 1em;
@@ -53,7 +56,12 @@ main {
             display: inline;
 
             .item-image {
-                background-color: $color-azul;
+                background-image: url(../assets/home-1.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                opacity: 50%;
                 height: 15em;
                 width: 80%;
                 margin-top: 3em;
@@ -61,19 +69,13 @@ main {
                 right: 0;
 
                 &:hover {
-                    background-image: url(../assets/home-1.jpg);
-                    background-position: center center;
-                    background-repeat: no-repeat;
-                    background-attachment: fixed;
-                    background-size: cover;
-                    opacity: 50%;
-
+                    opacity: 100%;
                 }
 
             }
 
             .item-text {
-                background-color: $color-blanco;
+                background-color: $color-azul;
                 position: absolute;
                 left: 0;
                 transform: translateY(10em);
@@ -84,9 +86,13 @@ main {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                -webkit-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+                -moz-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+                box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
 
                 p {
-                    background-color: $color-blanco;
+                    color:$color-blanco;
+                    background-color: $color-azul;
                     text-align: center;
                     font-size: x-small;
                     padding: 1em;
