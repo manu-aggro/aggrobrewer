@@ -1,0 +1,53 @@
+.contacto{
+    
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .burbuja{
+        border-radius: 50%;
+        background-color:$color-azul;
+        width: 10em;
+        height: 10em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+        box-shadow: 7px 9px 22px 6px rgba(0,0,0,0.75);
+
+        &:hover{
+            opacity: 80%;
+        }
+        a{
+            background-color: transparent;
+            img{
+                background-color: transparent;
+            }
+            
+        }
+        
+
+    }
+
+    .email-burbuja{
+        width: 15em;
+        height: 15em;
+        transform: translateX(-2em);
+        transform: translateY(10%);
+    }
+    
+    .instagram-burbuja{
+        background-color:$color-tipografia-principal;
+        transform: translateY(-5em);
+        transform: translateX(4em);
+
+    }
+
+    .telefono-burbuja{
+        width: 12em;
+        height: 12em;
+        transform: translateX(-3em);
+        transform: translateY(-3em);
+    }
+}

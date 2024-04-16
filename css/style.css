@@ -3,9 +3,7 @@
   padding: 0;
   overflow-x: hidden;
   background-color: #90233A;
-}
-* main {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 * {
@@ -169,7 +167,7 @@ main .home .home-item-2 .item-text p {
 }
 .proyectos .proyectos-item {
   width: 90%;
-  height: 40em;
+  height: 30em;
   margin: 1em;
   background-image: url(/assets/GARDENEA\ pantallazo.png);
   background-position: center center;
@@ -177,9 +175,16 @@ main .home .home-item-2 .item-text p {
   background-attachment: fixed;
   background-size: cover;
   opacity: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .proyectos .proyectos-item:hover {
   opacity: 80%;
+}
+.proyectos .proyectos-item a {
+  border: none;
+  background-color: transparent;
 }
 .proyectos .proyectos-item a button {
   text-decoration: none;
@@ -188,6 +193,51 @@ main .home .home-item-2 .item-text p {
   -webkit-box-shadow: 7px 9px 22px 6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 7px 9px 22px 6px rgba(0, 0, 0, 0.75);
   box-shadow: 7px 9px 22px 6px rgba(0, 0, 0, 0.75);
+}
+
+.contacto {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacto .burbuja {
+  border-radius: 50%;
+  background-color: #1CAFE3;
+  width: 10em;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 7px 9px 22px 6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 9px 22px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 9px 22px 6px rgba(0, 0, 0, 0.75);
+}
+.contacto .burbuja:hover {
+  opacity: 80%;
+}
+.contacto .burbuja a {
+  background-color: transparent;
+}
+.contacto .burbuja a img {
+  background-color: transparent;
+}
+.contacto .email-burbuja {
+  width: 15em;
+  height: 15em;
+  transform: translateX(-2em);
+  transform: translateY(10%);
+}
+.contacto .instagram-burbuja {
+  background-color: #CE9147;
+  transform: translateY(-5em);
+  transform: translateX(4em);
+}
+.contacto .telefono-burbuja {
+  width: 12em;
+  height: 12em;
+  transform: translateX(-3em);
+  transform: translateY(-3em);
 }
 
 /*# sourceMappingURL=style.css.map */

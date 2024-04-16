@@ -2,7 +2,7 @@
     margin-top: 5em;
     .proyectos-item{
                 width: 90%;
-                height: 40em;
+                height: 30em;
                 margin: 1em;
                 background-image: url(/assets/GARDENEA\ pantallazo.png);
                 background-position: center center;
@@ -10,12 +10,17 @@
                 background-attachment: fixed;
                 background-size: cover;
                 opacity: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 
 
                 &:hover{
                     opacity: 80%;
                 }
                 a{
+                    border: none;
+                    background-color:transparent;
                     button{
                         text-decoration: none;
                         padding: 1em;
